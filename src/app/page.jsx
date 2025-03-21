@@ -162,29 +162,7 @@ function MainComponent() {
     );
   }
 
-  if (!selectedRoom) {
-    return (
-      <div className="max-w-md mx-auto mt-20 p-6">
-        <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
-          Select a Chatroom
-        </h2>
-        <div className="space-y-4">
-          <button
-            onClick={() => setSelectedRoom("temp")}
-            className="w-full bg-gray-900 hover:bg-gray-700 text-white p-3 rounded-md transition-colors"
-          >
-            Temporary Chat
-          </button>
-          <button
-            onClick={() => setShowPermanentRoomModal(true)}
-            className="w-full border border-gray-200 hover:bg-gray-900 hover:text-white text-gray-900 p-3 rounded-md transition-colors"
-          >
-            Permanent Chat
-          </button>
-        </div>
-      </div>
-    );
-  }
+ 
 
   return (
     <div className="h-screen flex flex-col">
