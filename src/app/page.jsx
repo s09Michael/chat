@@ -170,7 +170,7 @@ function MainComponent() {
         <div className="max-w-6xl mx-auto flex justify-between items-center">
           <div>
             <span className="font-medium">
-              {selectedRoom === "temp" ? "Temporary" : "Permanent"} Chat
+              {selectedRoom === "temp" ?  : "Permanent"} Chat
             </span>
             <span className="text-sm ml-2 text-gray-400">({nickname})</span>
           </div>
