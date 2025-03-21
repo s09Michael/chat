@@ -1,5 +1,7 @@
 "use client";
 import React from "react";
+import { useState } from "react";
+import { useEffect } from "react";
 
 function MainComponent() {
   const [nickname, setNickname] = useState("");
@@ -170,7 +172,7 @@ function MainComponent() {
             onClick={() => setSelectedRoom("temp")}
             className="w-full bg-gray-900 hover:bg-gray-700 text-white p-3 rounded-md transition-colors"
           >
-            Temporary Chat
+            BROKEN Chat
           </button>
           <button
             onClick={() => setShowPermanentRoomModal(true)}
